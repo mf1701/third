@@ -22,5 +22,15 @@ public class User {
 	public void setPwd(String pwd) {
 		this.pwd = pwd;
 	}
+	public User(int id, String account, String pwd) {
+		super();
+		this.id = id;
+		this.account = account;
+		this.pwd = pwd;
+	}
+	public User() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 }
